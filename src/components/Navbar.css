@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgb(227, 12, 112);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 8px;
+    margin-bottom: 100px;
+}
+.formi{
+    display: flex;
+    column-gap: 20px;
+    justify-content: end;
+    
+}
+.gift{
+    display: flex;
+    justify-content: start;
+}
