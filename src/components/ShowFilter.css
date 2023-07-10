@@ -1,0 +1,73 @@
+
+
+.button-row {
+    display: flex;
+    margin-top: 10px;
+    row-gap: 5px;
+    padding-left: 0px;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    
+  }
+  .apppp{
+    margin-top: auto;
+  }
+
+  .dropdown-container {
+    margin: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    /* background-color: aqua; */
+  }
+  
+  .input-select-wrapper {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid rgb(189, 186, 186);
+    border-radius: 4px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    color: rgb(207, 6, 69);
+    font-weight: bold;
+  }
+  
+  .dropdown-select{
+    width: 200px;
+    height: 40px;
+    
+  }
+  .dropdown-input {
+    width: 130px;
+    
+  }
+  /* .select-component{
+    padding:50px
+  } */
+  .apply-button , .delete-button{
+    background-color:white;
+    border-radius: 2px;
+    padding: 7px 0px;
+    border: 0.5px solid rgb(90, 89, 89);
+    border-radius: 4px;
+    color: rgb(38, 49, 83);
+    font-weight: bold;
+  }
+  .apply-button:hover {
+    cursor: pointer;
+    background-color: rgb(209, 213, 213);
+  }
+   .delete-button:hover{
+    cursor: pointer;
+    background-color: rgb(209, 213, 213);
+  }

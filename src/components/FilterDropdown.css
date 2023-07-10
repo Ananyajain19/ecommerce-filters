@@ -1,0 +1,62 @@
+.modal{
+    position: fixed;
+    z-index: 1;
+    left: 5px;
+    top: 40px;
+    width: 18rem;
+    height: 30rem;
+    background-color: rgba(251, 248, 248, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content:flex-start ;
+    padding-left: 20px;
+    box-shadow: 5px 10px 16px #888888;
+    background-color: white;
+    /* transform: translate(0%, 0%); */
+    border-radius: 5px;
+}
+/* .filter-dropdown-container{
+    background-color: #e0ddde;
+    padding: 5px;
+} */
+.sort-button{
+  position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 8px;
+    font-size: px;
+    background-color: #fff;
+    border: 1.2px solid #ec2577;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 0.5px 0.5px 1px #ec2577;
+}
+
+.form-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 3.5px 4px;
+    font-size: px;
+    background-color: #fff;
+    border: 1.2px solid #ec2577;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 0.5px 0.5px 1px #ec2577;
+  }
+
+  .form-button:hover,.sort-button:hover{
+    background-color: #bebcbc;
+  }
+/* .arrow {
+    
+  } */
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 40px;
+  }
