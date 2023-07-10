@@ -23,7 +23,7 @@
   position: relative;
     display: inline-flex;
     align-items: center;
-    padding: 5px 8px;
+    padding: 5px 0px;
     font-size: px;
     background-color: #fff;
     border: 1.2px solid #ec2577;
@@ -45,6 +45,7 @@
     border-radius: 5px;
     margin-left: 10px;
     box-shadow: 0.5px 0.5px 1px #ec2577;
+    margin-right: 3px;
   }
 
   .form-button:hover,.sort-button:hover{

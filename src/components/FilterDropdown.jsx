@@ -18,7 +18,11 @@ const FilterDropdown = () => {
       <button className={`form-button ${formVisible ? 'active' : ''}`} onClick={handleButtonClick}>
         Gift Filter  <span className="arrow">{<RiArrowDropDownLine/>}</span>
       </button>
-      <button className='sort-button'>Sort By</button>
+      <select className='sort-button'>
+       <option >Sort By</option>
+       <option>low to high</option>
+       <option> high to low</option>
+      </select>
       {formVisible && (
         <div className="modal">
           <div className="modal-content"> 

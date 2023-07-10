@@ -47,6 +47,9 @@
     height: 40px;
     
   }
+  .dropdown-select:hover{
+    cursor: pointer;
+  }
   .dropdown-input {
     width: 130px;
     
